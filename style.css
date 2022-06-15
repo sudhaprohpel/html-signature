@@ -1,0 +1,93 @@
+.main-container {
+    width: 400px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 2px 0;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 2px 0;
+    font-weight: 500;
+}
+
+.line {
+    height: 1px;
+    width: 300px;
+    background-color: #5928E4;
+    margin: 1vh 0;
+}
+
+.contact-container > * {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.contact-container {
+    display: flex;
+    height: 5vh;
+}
+
+.phone-number-container {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.phone-number-container .icon-container, .website-container .icon-container {
+    height: 100%;
+    width: 15%;
+    object-fit: contain;
+}
+
+.website-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.detail-container {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.detail-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container img {
+    width: auto;
+    height: 60%;
+}
+
+.socials-container {
+    height: 5vh;
+    margin: 1vh 0;
+}
+
+.socials-container a {
+    height: 100%;
+    object-fit: contain;
+    margin: 0 10px 0 0;
+}
+
+.socials-container a img {
+    height: 100%;
+    width: auto;
+}
+
+.main-container > img {
+    width: 40%;
+}
